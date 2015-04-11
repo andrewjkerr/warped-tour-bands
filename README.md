@@ -2,6 +2,10 @@
 
 Ruby script to grab information about the bands on Warped Tour and turn it into something that applications can be built out of. Generated JSON available [here](http://andrewjkerr.com/warped-tour-bands/bands.json).
 
+##Requirements
+
+- Ruby 2.2.1
+
 ##Instructions
 
 1. `git clone https://github.com/andrewjkerr/warped-tour-bands.git; cd warped-tour-bands`
