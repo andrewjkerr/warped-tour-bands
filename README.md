@@ -1,25 +1,22 @@
 #warped-tour-bands
 
-This is a ruby script to grab information about the bands on Warped Tour and turn it into something that applications can be built out of.
+Ruby script to grab information about the bands on Warped Tour and turn it into something that applications can be built out of. Generated JSON available [here](http://andrewjkerr.com/warped-tour-bands/bands.json).
 
-##To-Do
+##Instructions
 
-There are currently some bugs:
+1. `git clone https://github.com/andrewjkerr/warped-tour-bands.git; cd warped-tour-bands`
+2. `bundle install`
+3. `ruby band-scraper.rb`
+4. Open the JSON in bands.json
 
-* Need to create special cases for "!"
-* Neck Deep isn't working for some reason?
-* Test SQL!
-* Make some database optimizations
-* Do one of the below!
+##License
 
-##Possible Applications
+The MIT License
 
-I original made this so I could sort through the bands and only see those bands that are playing on the date that I was going to, but here are some more applications:
+Copyright (c) 2010-2015 Andrew Kerr http://andrewjkerr.com
 
-* Android app (seriously, why is there an iPhone app, but not an Android one?)
-* Band planner (allow users to "add" a band to their "to see" list that will be available on tour dates)
-* Webpage to filter/sort bands
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-##Made With
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Made with nokogiri, ruby, pizza, and pop punk by [Andrew Kerr](http://www.andrewjkerr.com).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
