@@ -97,7 +97,7 @@ def location(node)
 
   {
     city: location_arr.first,
-    state: location_arr.last
+    state: location_arr.last.strip
   }
 end
 
